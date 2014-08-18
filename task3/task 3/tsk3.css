@@ -168,6 +168,21 @@ a{
 /* Left-side menu end*/
 /* Blocks from right-side start */
 
-
+.rs-content{
+    float:right;
+    width:610px;
+}
+.float-right{
+    text-align:right;
+}
+.calend-img{
+    width:40px;
+}
+.gm-img{
+    height:40px;
+}
+.blue-but{
+    height:40px;
+}
 
 /* Blocks from right-side end */
