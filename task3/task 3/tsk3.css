@@ -7,7 +7,7 @@ body{
     display:inline-block;
 }
 ul,li,img{
-    margin-top:0px;
+    margin-top:0;
 }
 .header{
     background-color:#292900;
@@ -16,7 +16,7 @@ ul,li,img{
 .header ul li{
     display:inline-block;
     color: rgba(255, 255, 255, 0.71);
-    margin-top:0px;
+    margin-top:0;
     font-size:0.9em;
 }
 .logo{
@@ -79,7 +79,8 @@ ul,li,img{
 /* Left-side menu start*/
 .ls-menu{
     width:360px;
-    background-color:#494949;
+    height:850px;
+    background-color: #3d3d3d;
     float:left;
     color: rgba(255, 255, 255, 0.71);
 }
@@ -90,19 +91,25 @@ ul,li,img{
     margin-left:230px;
     margin-bottom:10px;
 }
+.ls-menu .mm{
+    position:relative;
+    left:-40px;
+}
 .sub-menu li{
     list-style:none;
 }
 .ls-menu li{
     list-style:none;
+    width:330px;
 }
 .search-button{
-    background-color:#494949;
-    color: rgba(255, 255, 255, 0.71);
+    background-color:#3d3d3d;
+    color: rgba(118, 118, 118, 0.77);
     width:280px;
-    padding-top:0px;
+    padding-top:0;
+    padding-bottom:5px;
     margin-bottom:30px;
-    font-size:1.2em;
+    font-size:1.3em;
     border:none;
     border-bottom:2px solid rgba(255, 255, 255, 0.71);
 }
@@ -112,6 +119,49 @@ ul,li,img{
     position:relative;
     left:-30px;
     top:5px;
+}
+a{
+    color:rgba(255, 255, 255, 0.71);
+    text-decoration: none;
+}
+.sub-menu li{
+    position:relative;
+    left:25px;
+    padding:15px;
+    width:300px;
+    display:none;
+/* !!! Hiding sub-menu !!! */
+}
+.m-block{
+    display:block;
+    border-bottom:1px solid rgba(98, 98, 98, 0.77);
+    padding:15px;
+    font-size:1.2em;
+}
+.m-block:last-child{
+    border-bottom:none;
+}
+.m-block a{
+    display:block;
+    padding:5px;
+    background-color:#3d3d3d;
+    color: rgba(118, 118, 118, 0.77);
+    padding-top:0;
+    font-size:1.3em;
+    border:none;
+}
+.m-block>a{
+    color: rgba(237, 237, 237, 0.77);
+}
+.r-img{
+    float:right;
+    margin-right:10px;
+    margin-top:10px;
+}
+.rel{
+    position:relative;
+    top:5px;
+    left:-5px;
 }
 
 /* Left-side menu end*/
