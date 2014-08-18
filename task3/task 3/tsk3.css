@@ -124,6 +124,7 @@ a{
     color:rgba(255, 255, 255, 0.71);
     text-decoration: none;
 }
+/* !!! Hiding sub-menu !!! */
 .sub-menu li{
     position:relative;
     left:25px;
@@ -165,3 +166,8 @@ a{
 }
 
 /* Left-side menu end*/
+/* Blocks from right-side start */
+
+
+
+/* Blocks from right-side end */
