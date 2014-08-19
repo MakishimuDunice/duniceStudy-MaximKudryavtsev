@@ -54,7 +54,7 @@ ul,li,img{
     width:20px;
     height:20px;
     background:red;
-    margin-right:59px;
+    /*margin-right:59px;*/
     margin-left:-31px;
     border-radius:50%;
     position:relative;
@@ -270,9 +270,8 @@ a{
 .che-tab{
     border-collapse:collapse;
     border:2px solid #dedede;
-    position:relative;
-    left:150px;
     margin-bottom:30px;
+    float:right;
 }
 .che-tab td{
     border-bottom:2px solid #e8faff;
@@ -288,10 +287,6 @@ a{
     width:350px;
     border-left:4px solid #c58e8c;
 }
-.notes-list{
-    position:relative;
-    left:200px;
-}
 .not-here-f{
     background-image:url('./For 3rd task/sandfield.jpg');
     background-size:100%;
@@ -299,6 +294,9 @@ a{
     width:350px;
     height:120px;
     margin-bottom:30px;
+}
+.notes-list{
+    margin-left:200px;
 }
 .t-r-ic{
     width:3%;
