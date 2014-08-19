@@ -104,7 +104,7 @@
                    </label>
                </td>
                <td>
-                   <input type="text" name="tit" id="title-field" value="what you gona to do?" class="title-f">
+                   <input type="text" name="tit" id="title-field" value="what you gotta do?" class="title-f">
                </td>
            </tr>
             <tr class="list-ag">
@@ -114,17 +114,17 @@
                     </label>
                 </td>
                 <td>
-                    <select name="001" id="one" class="Lis-ag-sel">
+                    <select name="001" id="one" class="lis-ag-sel">
                         <option>Best Moments</option>
-                        <option>option</option>
+                        <option>The Badest Moments Ever</option>
                     </select>
                     <input type="radio" id="two" checked>
-                    <label for="two" >
+                    <label for="two" class="est-l">
                         Tasks
                     </label>
                     <input type="radio" id="three">
-                    <label for="three">
-                        Miting
+                    <label for="three" class="est-l">
+                        Meeting
                     </label>
                 </td>
             </tr>
@@ -135,7 +135,7 @@
                     </label>
                 </td>
                 <td>
-                    <select name="op" id="four">
+                    <select name="op" id="four" class="assig">
                         <option> </option>
                         <option>2</option>
                         <option>3</option>
@@ -150,15 +150,15 @@
                     </label>
                 </td>
                 <td>
-                    <select id="five">
+                    <select id="five" class="pry-ur">
                         <option>Urgent</option>
                         <option></option>
                         <option></option>
                     </select>
-                    <label for="sts">
+                    <label for="sts" class="est-l">
                         Status
                     </label>
-                    <select id="sts">
+                    <select id="sts" class="stat-pen">
                         <option>Pending</option>
                         <option></option>
                         <option></option>
@@ -173,8 +173,8 @@
                 </td>
                 <td>
                     <div>
-                        <input type="datetime" id="dtd" value="06 November 2013 - 10:50">
-                        <img src="./For 3rd task/куленд1.png" class="calend-img">
+                        <input type="datetime" id="dtd" value="06 November 2013 - 10:50" class="start-f">
+                        <img src="./For 3rd task/календ.jpg" class="calend-img">
                     </div>
                 </td>
             </tr>
@@ -186,21 +186,21 @@
                 </td>
                 <td>
                     <div>
-                        <input type="datetime" id="sp" value="06 November 2013 - 10:50">
-                        <img src="./For 3rd task/куленд1.png" class="calend-img">
+                        <input type="datetime" id="sp" value="06 November 2013 - 10:50" class="stop-f">
+                        <img src="./For 3rd task/календ.jpg" class="calend-img">
                     </div>
                 </td>
             </tr>
             <tr class="reminder">
                 <td class="float-right">
-                    <label for="rem">
+                    <label for="rem" >
                         Reminder
                     </label>
                 </td>
                 <td>
                     <div>
-                        <input type="datetime" id="rem" >
-                        <img src="./For 3rd task/куленд1.png" class="calend-img">
+                        <input type="datetime" id="rem" class="remid-f">
+                        <img src="./For 3rd task/календ.jpg" class="calend-img">
                     </div>
                 </td>
             </tr>
@@ -212,23 +212,25 @@
                 </td>
                 <td>
                     <div>
-                        <input type="datetime" id="locc" >
-                        <img src="./For 3rd task/gm.jpg" class="gm-img">
+                        <input type="datetime" id="locc" class="loc-f">
+                        <a href="https://www.google.ru/maps/preview?source=newuser-ws">
+                            <img src="./For 3rd task/gm.jpg" class="gm-img" >
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr class="estimate">
                 <td class="float-right">
-                    <label for="est">
+                    <label for="est" class="spt">
                         Estimate
                     </label>
                 </td>
                 <td>
-                    <input type="text" id="est" value="1:30">
-                    <label for="est2">
+                    <input type="text" id="est" value="1:30" class="est-f">
+                    <label for="est2" class="est-l spt">
                         Spent
                     </label>
-                    <input type="text" id="est2" value="2:30">
+                    <input type="text" id="est2" value="2:30" class="sp-f">
                 </td>
             </tr>
             <tr class="attach">
@@ -238,7 +240,7 @@
                     </label>
                 </td>
                 <td>
-                    <input type="button" id="att" value="Select File">
+                    <input type="button" id="att" value="Select File" class="att-f">
                 </td>
             </tr>
         </table>
@@ -248,7 +250,7 @@
                     <td>
                         <input type="checkbox" checked>
                     </td>
-                    <td class="st">
+                    <td class="gr rig-c">
                         subtask
                     </td>
                 </tr>
@@ -256,62 +258,61 @@
                     <td>
                         <input type="checkbox">
                     </td>
-                    <td class="st-two">
+                    <td class="st-two rig-c">
                         subtask2
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td class="gr">
                         +
                     </td>
-                    <td>
+                    <td class="gr rig-c">
                         Anadir una subtarea
                     </td>
                 </tr>
             </table>
         </div>
         <div class="notes-list">
-            <taxtarea>
-                notes herer
-            </taxtarea>
-            <img src="./For 3rd task/009.png">
+            <textarea class="not-here-f"> notes here
+            </textarea>
+            <img src="./For 3rd task/009.png" class="t-r-ic">
         </div>
         <div class="first-comment">
-            <table>
+            <table class="comm-tb">
                 <tr>
                     <td rowspan="2">
-                        <img src="./For 3rd task/014.jpg">
+                        <img src="./For 3rd task/014.jpg" class="fir-com">
                     </td>
-                    </td>
-                    <td>
-                        rg
+                    <td class="grey-bg top-cel">
+                        <span>Bob Nilson</span> at Jul 25, 2012 11:09
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                       dfcd
+                    <td class="grey-bg bot-cel">
+                       Lorem ipsum dolor sir amet, consectetuer adipisking elit sed, diam nonummy nibh euismod tincidunt ut laorit dolore magna aliquam elat volutpat
                     </td>
                 </tr>
             </table>
         </div>
         <div class="second-comment">
-            <table>
+            <table class="comm-tab">
                 <tr>
-                    <td>
-                        fgerd
-                    <td>
-                        rg
+                    <td class="grey-bg top-cel rich">
+                        <span>Richard Doe</span> at Jul 25, 2012 11:09
+                    </td>
+                    <td rowspan="2">
+                        <img src="./For 3rd task/013.jpg" class="sec-com">
                     </td>
                 </tr>
                 <tr>
-                    <td rowspan="2">
-                        dfcd
+                    <td class="grey-bg bot-cel rich">
+                        Lorem ipsum dolor sir amet, consectetuer adipisking elit sed, diam nonummy nibh euismod tincidunt ut laorit dolore magna aliquam elat volutpat
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="massage-text">
-            <input type="text" value="Type a message here...">
+        <div class="message-text">
+            <input type="text" value="Type a message here..." class="mess-f">
             <img src="./For 3rd task/010.png" class="blue-but">
         </div>
     </div>

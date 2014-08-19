@@ -75,8 +75,8 @@ ul,li,img{
 .prof{
     margin-left:-80px;
 }
-/* Header end*/
-/* Left-side menu start*/
+/* Header - end */
+/* Left-side menu - start */
 .ls-menu{
     width:360px;
     height:850px;
@@ -144,10 +144,9 @@ a{
 }
 .m-block a{
     display:block;
-    padding:5px;
+    padding: 0 5px 5px 5px;
     background-color:#3d3d3d;
     color: rgba(118, 118, 118, 0.77);
-    padding-top:0;
     font-size:1.3em;
     border:none;
 }
@@ -165,18 +164,21 @@ a{
     left:-5px;
 }
 
-/* Left-side menu end*/
-/* Blocks from right-side start */
+/* Left-side menu - end*/
+/* Blocks from right-side - start */
 
 .rs-content{
     float:right;
     width:610px;
+    margin-right:-350px;
+}
+.top-rs-cont{
+    margin-bottom:150px;
 }
 .float-right{
+    font-size:1.3em;
     text-align:right;
-}
-.calend-img{
-    width:40px;
+    padding-right:20px;
 }
 .gm-img{
     height:40px;
@@ -184,5 +186,170 @@ a{
 .blue-but{
     height:40px;
 }
+.title-f{
+    width:150px;
+    height:30px;
+    color: rgba(147, 147, 147, 0.77);
+    font-size:1.1em;
+}
+.lis-ag-sel{
+    width:155px;
+    height:35px;
+    padding-left:5px;
+    padding-top:3px;
+    font-size:1.1em;
+}
+.assig{
+    width:280px;
+    height:35px;
+}
+.pry-ur,.stat-pen{
+    width:105px;
+    height:35px;
+    padding-top:3px;
+    font-size:1.1em;
+}
+.start-f,.stop-f,.remid-f{
+    width:200px;
+    height:35px;
+    border:2px solid #e7e7e0;
+    border-right:none;
+    display:inline-block;
+    vertical-align:middle;
+    background-color: rgba(238, 238, 238, 0.80);
+}
+.calend-img{
+    width:36px;
+    margin-top:10px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    top:-5px;
+    left:-5px;
+}
+.loc-f{
+    width:200px;
+    height:35px;
+    border:2px solid #e7e7e0;
+    border-right:none;
+}
+.gm-img{
+    height:41px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    left:-5px;
+}
+.est-l{
+    font-size:1.3em;
+}
+.est-f,.sp-f{
+    width:120px;
+    height:35px;
+}
+.estimate{
+    height:100px;
+}
+.sp-f{
+    margin-left:30px;
+}
+.spt{
+    margin-left:20px;
+    font-size:1em;
+}
+.estimate td label .spt{
+    font-size:1em;
+}
+.att-f{
+    width:100px;
+    height:35px;
+    font-size:1.1em;
+}
+            /* Two elements from right side. Table & comment field */
 
+.che-tab{
+    border-collapse:collapse;
+    border:2px solid #dedede;
+    position:relative;
+    left:150px;
+    margin-bottom:30px;
+}
+.che-tab td{
+    border-bottom:2px solid #e8faff;
+    padding:10px;
+}
+.che-tab tr:last-child td {
+    border-bottom:none;
+}
+.gr{
+    color: #afafaf;
+}
+.rig-c{
+    width:350px;
+    border-left:4px solid #c58e8c;
+}
+.notes-list{
+    position:relative;
+    left:200px;
+}
+.not-here-f{
+    background-image:url('./For 3rd task/sandfield.jpg');
+    background-size:100%;
+    font-size:1.3em;
+    width:350px;
+    height:120px;
+    margin-bottom:30px;
+}
+.t-r-ic{
+    width:3%;
+    height:3%;
+    position:relative;
+    bottom:125px;
+    right:35px;
+}
+            /* Bottom of right side. Comments and search */
+
+.comm-tb,.comm-tab{
+    border-collapse:collapse;
+    margin-bottom:30px;
+}
+.grey-bg{
+    background-color: rgba(238, 238, 238, 0.80);
+}
+.fir-com,.sec-com{
+    height:100px;
+}
+.top-cel{
+    height:10px;
+
+}
+.bot-cel{
+    height:75px;
+}
+span{
+    color:dodgerblue;
+}
+.rich{
+    text-align:right;
+}
+.mess-f{
+    width:500px;
+    height:36px;
+    border:1px solid #f6f6f6;
+    border-right:none;
+    color: #c9c9c9;
+}
+.message-text{
+    background-color: #dddddd;
+    width:585px;
+    height:40px;
+    padding:20px;
+}
+.blue-but{
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    left:-5px;
+    top:-1px;
+}
 /* Blocks from right-side end */
