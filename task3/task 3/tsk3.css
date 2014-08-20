@@ -288,7 +288,98 @@ h1{
 
          /*!!! HIDE   !!!*/   /* Calendar end */
 
+        /*!!! HIDE   !!!*/   /* Bestmoments start */
 
+.best-moments-block{
+    display:none;
+}
+.bm-t{
+    font-size:22px;
+    padding-left:15px;
+}
+.bm-t-img{
+    width:23px;
+    padding-left:30px;
+    padding-top:15px;
+}
+.underlined td:nth-child(2){
+    border-bottom:2px solid lightgray;
+    width:600px;
+}
+.underlined td{
+    padding:10px;
+}
+.text-bot{
+    height:35px;
+    width:511px;
+    margin-left:15px;
+    margin-right:-5px;
+    border:2px solid #f1f1f1;
+    border-right:none;
+}
+.inp-dat{
+    height:35px;
+    width:130px;
+    border:2px solid #f1f1f1;
+    color: #b9b9b9;
+}
+.any-fields{
+    margin-top:10px;
+}
+.little-div-bot{
+    width:25px;
+    height:40px;
+    margin-left:10px;
+    float:right;
+    margin-right:50px;
+}
+.bot-v-but-one{
+    width:18px;
+    display:inline-block;
+}
+.bot-v-but-two{
+    width:18px;
+    display:inline-block;
+}
+.add-buttons{
+    margin-top:10px;
+}
+.red-but{
+    background-color: #ff6b4c;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:3px;
+    margin-left:15px;
+}
+.glass-but{
+    background-color: white;
+    border:none;
+}
+.alarm-img{
+    width:22px;
+    float:right;
+    padding-right:30px;
+}
+.flag-img{
+    width:22px;
+    float:right;
+    padding-right:85px;
+}
+.add-task{
+    height:40px;
+    margin-top:20px;
+}
+.add-task span{
+    color:#ff6b4c;
+    padding-left:18px;
+}
+.around-img{
+    width:20px;
+    float:right;
+    margin-right:35px;
+}
+        /*!!! HIDE   !!!*/   /* Bestmoments start */
 /* Middle content - end */
 
 /* Blocks from right-side - start */
