@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Example page</title>
     <link href="./tsk3.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+
 </head>
 <body>
      <div class="header">
@@ -46,33 +49,33 @@
                 <img src="./For 3rd task/002.png" class="sch-img">
             </li>
             <li class="today m-block mm">
-                <a href="#tod">
+                <a href="#tod" class="tod-src">
                     <img src="./For 3rd task/003.png" class="today-img rel">
                     Today
                 </a>
             </li>
-            <li class="InOu m-block mm">
-                 <a href="#inout">
-                    <img src="./For 3rd task/004.png" class="inout-img rel">
+            <li class="InOu m-block mm on-off-inb">
+                 <a href="#inout" class="in-ou-src">
+                    <img src="./For 3rd task/004.png" class="inout-img rel on-off-window">
                     Inbox/outbox
                     <img src="./For 3rd task/011.jpg" class="r-img">
                 </a>
             </li>
-            <li class="Calendar m-block mm">
-                <a href="#cr">
+            <li class="Calendar m-block mm on-off-calendar">
+                <a href="#cr" class="calend-src">
                     <img src="./For 3rd task/004.png" class="calendar-img rel">
                     Calendar
                     <img src="./For 3rd task/011.jpg" class="r-img">
                 </a>
             </li>
-            <li class="Ts m-block mm">
-                <a href="#ts">
-                    <img src="./For 3rd task/005.png" class="task-img rel">
+            <li class="Ts m-block mm go-tsk">
+                <a href="#ts" class="ts-src">
+                    <img src="./For 3rd task/005.png" class="task-img rel on-off-window">
                     Tasks
-                    <img src="./For 3rd task/011.jpg" class="r-img">
+                    <img src="./For 3rd task/011.jpg" class="r-img"> <!--!!!!!!!! -->
                 </a>
-                <ul class="sub-menu mm">
-                    <li>
+                <ul class="sub-menu mm on-off-tsk">
+                    <li class="on-off-bm">
                         <a href="#bm">
                             Best Moments
                         </a>
@@ -90,6 +93,7 @@
                 </ul>
             </li>
         </ul>
+
     </div>
 <!-- Middle content -->
     <div class="content">
@@ -104,7 +108,7 @@
 
                    <!--!!! Hiding Calendar !!!-->
 
-        <div class="calendar">
+        <div class="calendar calendar-window">
             <table class="top-blocks">
                 <tr>
                     <td class="tod">
@@ -295,7 +299,7 @@
 
         <!--!!! Hiding Bestmoments !!!-->
 
-        <div class="best-moments-block">
+        <div class="best-moments-block menu-window-bm">
             <table>
                 <tr>
                     <td colspan="2" class="bm-t">
@@ -403,7 +407,7 @@
 
         <!--!!! Hiding Inbox/Outbox !!!-->
 
-        <div class="inbox-outbox-block">
+        <div class="inbox-outbox-block inbox-menu-line">
             <div class="blue-inbox">
                 <b>Inbox(3)</b>
             </div>
@@ -917,5 +921,6 @@
             <img src="./For 3rd task/010.png" class="blue-but">
         </div>
     </div>
+
  </body>
 </html>

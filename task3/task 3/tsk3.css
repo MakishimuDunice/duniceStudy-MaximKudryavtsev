@@ -124,15 +124,24 @@ a{
     color:rgba(255, 255, 255, 0.71);
     text-decoration: none;
 }
-/* !!! Hiding sub-menu !!! */
-.sub-menu li{
-    position:relative;
-    left:25px;
-    padding:15px;
-    width:300px;
+.tsk-new-ing{
+    position:absolute;
+    margin-top:-270px;
     display:none;
-/* !!! Hiding sub-menu !!! */
 }
+/* !!! Hiding sub-menu !!! */
+.sub-menu li {
+    position: relative;
+    left: 25px;
+    padding: 15px;
+    width: 300px;
+}
+.on-off-tsk{
+    display:none;
+}
+
+/* !!! Hiding sub-menu !!! */
+
 .m-block{
     display:block;
     border-bottom:1px solid rgba(98, 98, 98, 0.77);
@@ -163,7 +172,38 @@ a{
     top:5px;
     left:-5px;
 }
-
+.today:hover{
+    background-color:red;
+    color:white;
+}
+.today:hover .tod-src{
+    background-color:red;
+    color:white;
+}
+.Calendar:hover{
+    background-color:red;
+    color:white;
+}
+.Calendar:hover .calend-src{
+    background-color:red;
+    color:white;
+}
+.InOu:hover{
+    background-color:red;
+    color:white;
+}
+.InOu:hover .in-ou-src{
+    background-color:red;
+    color:white;
+}
+.Ts:hover{
+    background-color: #323232;
+    color:white;
+}
+.Ts:hover .ts-src{
+    background-color:#323232;
+    color:white;
+}
 /* Left-side menu - end */
 
 /* Middle content - start */
@@ -292,6 +332,7 @@ h1{
 
 .best-moments-block{
     display:none;
+
 }
 .bm-t{
     font-size:22px;
@@ -381,7 +422,7 @@ h1{
 }
         /*!!! HIDE   !!!*/   /* Bestmoments end */
 
-        /*!!! UNHIDE   !!!*/   /* Inbox/Outbox start */
+        /*!!! HIDE   !!!*/   /* Inbox/Outbox start */
 
 .inbox-outbox-block{
     display:none;
@@ -501,7 +542,7 @@ h1{
 }
 
 
-        /*!!! UNHIDE   !!!*/   /* Inbox/Outbox end */
+        /*!!! HIDE   !!!*/   /* Inbox/Outbox end */
 
 /* Middle content - end */
 
@@ -691,3 +732,10 @@ span{
     top:-1px;
 }
 /* Blocks from right-side end */
+
+     /* Class for JS start */
+
+.menu-action{
+    display:block;
+}
+  /* Class for JS end */
